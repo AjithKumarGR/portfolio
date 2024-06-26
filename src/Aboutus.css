@@ -1,0 +1,257 @@
+.Aboutrow{
+    display: table-row;
+  
+}
+.Aboutcol{
+    display: table-cell;
+}
+.Aboutcol1{
+    color:rgb(25, 244, 9);
+}
+
+
+.skills{
+  /* background: cornflowerblue;*/
+    position: relative;
+    margin-top: 5%;
+
+}  
+
+ .outer{
+    height: 160px;
+    width: 160px;
+    border-radius: 50%;
+   box-shadow: 6px 6px 10px -1px rgba(0,0,0,0.15),
+                -6px -6px 10px -1px rgb(103, 255, 1);
+    padding: 20px;
+}
+.inner{
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: inset 4px 4px 6px -1px rgba(0, 0, 0, 0.2),
+                inset -4px -4px 6px -1px  rgb(103, 255, 1),
+                -0.5px -0.5px 0px rgba(255,255,255,1),
+                0.5px 0.5px 0px rgba(0,0,0,0.15),
+                0px 12px 10px -10px rgba(0,0,0,0.05);
+
+}
+circle{
+    fill: none;
+    stroke: url(#GradientColor);
+    stroke-width: 20px;
+    stroke-dasharray: 472;
+    stroke-dashoffset: 472;
+    animation: anim 3s linear forwards;
+}
+svg{
+    position:absolute;
+    top: 0px;
+    left: 24px;
+}
+@keyframes anim{
+    100%{
+        stroke-dashoffset: 95;
+    }
+
+} 
+ .circle_per{
+    fill: none;
+    stroke: url(#GradientColor);
+    stroke-width: 20px;
+    stroke-dasharray: 472;
+    stroke-dashoffset: 472;
+    animation: ani 3s linear forwards;
+} 
+ @keyframes ani{
+    100%{
+        stroke-dashoffset: 95;
+    }
+
+}
+.circle_per1{
+    fill: none;
+    stroke: url(#GradientColor);
+    stroke-width: 20px;
+    stroke-dasharray: 472;
+    stroke-dashoffset: 472;
+    animation: ani_1 3s linear forwards;
+} 
+ @keyframes ani_1{
+    100%{
+        stroke-dashoffset: 135;
+    }
+ }
+ .circle_per2{
+    fill: none;
+    stroke: url(#GradientColor);
+    stroke-width: 20px;
+    stroke-dasharray: 472;
+    stroke-dashoffset: 472;
+    animation: ani_2 3s linear forwards;
+} 
+ @keyframes ani_2{
+    100%{
+        stroke-dashoffset: 115;
+    }
+ }
+ .circle_per3{
+    fill: none;
+    stroke: url(#GradientColor);
+    stroke-width: 20px;
+    stroke-dasharray: 472;
+    stroke-dashoffset: 472;
+    animation: ani_3 3s linear forwards;
+} 
+ @keyframes ani_3{
+    100%{
+        stroke-dashoffset: 135;
+    }
+ }
+ .circle_per4{
+    fill: none;
+    stroke: url(#GradientColor);
+    stroke-width: 20px;
+    stroke-dasharray: 472;
+    stroke-dashoffset: 472;
+    animation: ani_4 3s linear forwards;
+} 
+ @keyframes ani_4{
+    100%{
+        stroke-dashoffset: 50;
+    }
+ }
+ .circle_per5{
+    fill: none;
+    stroke: url(#GradientColor);
+    stroke-width: 20px;
+    stroke-dasharray: 472;
+    stroke-dashoffset: 472;
+    animation: ani_4 3s linear forwards;
+} 
+ @keyframes ani_4{
+    100%{
+        stroke-dashoffset: 135;
+    }
+ }
+
+.number{
+    color: white;
+    font-weight: bold;
+}
+ .hello1{
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 16%;
+    
+ }
+ .hello2{
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+   margin-left: 20%;
+    
+ }
+ .main{
+    margin-left:15%;
+    padding: 0px 30px;
+    border-left: 2px solid white;
+ }
+ .main .box{
+    position: relative;
+    padding: 20px;
+    border: 1px solid #eaeaea;
+    width: 80%;
+    background-color: lime;
+    cursor: pointer;
+    transition: all 0.4s;
+    margin-bottom: 20px;
+}
+.main .box:hover{
+    box-shadow: 3px 4px 12px 3px lime;
+    border: 1px solid transparent;
+
+}
+.main .box::before{
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    right: calc(100% + 22px);
+    top:-1%;
+    background-color: lime;
+    border: 2px solid white;
+}
+.heading{
+    margin-left: 17%;
+
+}
+.heading1{
+    margin-left: 45%;
+}
+.box h3{
+    font-size: 19px;
+    padding: 10px 0px 6px;
+    font-family: helvetica;
+    color:black;
+}
+.box p{
+    line-height: 1.2;
+    color:black;
+    font-size: 17px;
+
+}
+.box h4{
+    border: 1px solid black;
+    width: max-content;
+    font-weight: bold;
+    color: white;
+    background-color:  rgb(8, 113, 3);
+}
+.about_hi{
+    color: white;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+.about_name{
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+.about_sub{
+    color: lime;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+
+}
+.about_para{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: white;
+}
+.icon_media a{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 2rem;
+    height: 2rem;
+    background: transparent;
+    border: .2rem solid lime;
+    border-radius: 50%;
+    font-size: 1rem;
+    color: lime;
+    margin: 3rem 1.5rem 3rem 0;
+    transition: .5s ease;
+}
+.icon_media a:hover{
+    background-color: lime;
+    color: black;
+    box-shadow: 0 0 1rem lime;
+}
+.myphoto1{
+    margin-top: -6%;
+}

@@ -1,0 +1,116 @@
+#intro{
+    height: calc(100vh-4rem);
+    width: 100vw;
+    max-width: 75rem;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+}
+.bg{
+    position: absolute;
+    top: -4rem;
+    right: 0;
+    z-index: -1;
+    object-fit: cover;
+    height: 100vh;
+
+}
+.introContent{
+    
+   
+    padding-left: 3rem;
+    font-size: 3rem;
+    font-weight: 700;
+    display: flex;
+    flex-direction: column;
+     margin-top: 6%; 
+    /* justify-content: center; */
+    
+}
+.hello{
+    font-size: 1.75rem;
+    font-weight: 100;
+    color: white;
+}
+.introName{
+    color: lime;
+}
+.introPara{
+    font-size: medium;
+    font-weight: 300;
+    color: white;
+    letter-spacing: 1px;
+    font-family: emoji;
+    
+   
+}
+.btn{
+    background-color: white;
+    margin: 1rem 0;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 2rem;
+
+}
+.btnImg{
+    object-fit: cover;
+    margin: 0 0.25rem;
+    height: 1rem;
+}
+.introText{
+    color: white;
+    font-size: 46px;
+}
+.btn {
+    border-radius: 10px;
+    text-transform: uppercase;
+    position: relative;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1.5px solid lime;
+    background-size: 300%;
+    transition: all 0.4s;
+    width: 38%;
+    
+}
+  .cv{
+    color: lime;
+      background-image: linear-gradient(160deg, black 40%, lime 60%);
+  }
+  
+  
+  .btn:hover {
+    color: black;
+    background-position: 100%;
+    transform: translateX(0.5rem);
+    font-weight: bolder;
+  }
+   .btn:active {
+    transform: translate(0.5rem, 0.5rem);
+    box-shadow: 0px 15px 20px -15px rgb(128, 255, 0);
+    font-weight: bolder;
+  }
+  .photo_img{
+    margin-top: 8%;
+    margin-left: 20%;
+    filter: drop-shadow(0px 11px 8px lime);
+    animation: floatImage 4s ease-in-out infinite;
+}
+@keyframes floatImage{
+    0% {
+        transform: translate(0);
+    }
+
+    50% {
+        transform: translate(-1.4rem);
+    }
+    
+    100% {
+        transform: translate(0);
+    }
+}
+
+
+   

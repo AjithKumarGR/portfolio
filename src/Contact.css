@@ -1,0 +1,124 @@
+/* label{
+    color: lime;
+   
+}
+.fname{
+    padding: 1em;
+
+}
+.lname{
+    padding: 1em;
+}
+.email_msg{
+    padding: 1em;
+}
+.message{
+    padding: 1em;
+    
+}
+.box{
+  background-color: black;
+  border-top-color:black ;
+  border-left-color:black ;
+  border-bottom-color:lime ;
+  border-right-color:transparent ;
+  color: white;
+  width: 50%;
+}
+textarea{
+    color: lime;
+}
+.msg_box{
+    resize: none;
+    width: 50%;
+    background-color: black;
+    border-top-color:black ;
+    border-left-color:black ;
+    border-bottom-color:lime ;
+    border-right-color:transparent ;
+    color: white;
+}
+.submit{
+    width: 20%;
+    height: 50px;
+    margin-top: 4%;
+    
+}
+.map{
+    color: lime;
+    margin-left: 4em;
+}
+.map_frame{
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 4%;
+   
+}
+/* .social_media{
+    margin-left: 4em;
+}
+.map_social{
+    display: table-cell;
+} */
+/* .contact_form{
+    border: 2px solid white;
+    width: 350px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color:transparent ;
+    backdrop-filter: blur(5px);
+    position: relative;
+    margin-left: 3%;
+    
+
+}
+input[type="text"],
+input[type="email"],
+textarea,
+input[type="number"]{
+    padding: 10px;
+    border: 2px solid lime;
+    width: 100%;
+    border-radius: 25px;
+    outline: none;
+    background-color: transparent;
+    color: white;
+
+}
+textarea{
+    resize: none;
+}
+label{
+    color: white;
+    font-size: 18px;
+    padding: 1%;
+}
+.contact_btu{
+    border: none;
+    padding: 10px;
+    border-radius: 50px;
+    cursor: pointer;
+     width: 100%; 
+    margin-top: 5%;
+    color: white;
+    background-color: transparent;
+    border: 2px solid rgb(190, 252, 5);
+    text-transform: uppercase;
+     margin-left: 24%; 
+}
+.contact_btu:hover{
+    color: black;
+    border: 2px solid rgb(179, 255, 0);
+    background-color: rgb(187, 255, 0);
+}
+.contact_btu:active {
+    transform: translate(0.1rem, 0.1rem);
+    box-shadow: 0px 15px 20px -15px rgba(89, 255, 0, 0.986);
+    font-weight: bolder;
+}
+.cont_num{
+   color: white;
+   margin-left: 15%;
+  
+
+}  */
